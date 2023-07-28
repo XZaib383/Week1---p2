@@ -1,0 +1,129 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+    background-color: rgb(2, 2, 41);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    height: 68px;
+    background-color: rgb(4, 4, 65);
+}
+nav ul{
+    justify-content: center;
+    display: flex;
+}
+nav ul li{
+    display: flex;
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+   color: lavender;
+   font-size: 1.02rem;
+}
+.left{
+    font-size: 1.3rem;
+}
+.firstSection{
+    margin: 45px auto;;
+    display: flex;
+    justify-content: space-around;
+}
+.leftSection{
+    width: 30%;
+    font-size: 3rem;
+    margin: 70px;
+}
+.leftSection .btn1
+{
+    background-color: #6061cc;
+border: 2px solid white;
+color: white;
+border-radius: 6px;
+font-size: 16px;
+padding: 12px;
+}
+.rightSection img{
+    width: 437px;
+    margin: 28px;}
+.pur{
+    color: blueviolet;
+}
+#element{
+    color:blueviolet;
+}
+main hr{
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.work{
+    color: gray;
+
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 50vh;
+}
+.secondsection h1{
+    font-size: 1.3rem;
+}
+.box{
+   background-color: white;
+   width: 63vw;
+   height: 0.2vh;
+   margin: 48px auto;
+   display: flex;
+}
+.vertical{
+    background-color: white;
+    height: 34px;
+    width: 1px;
+    margin: 0 100px;
+}
+.Img-per1{
+    width: 36px;
+    display: flex;
+    position: relative;
+    top: -37px;
+    left: -15px;
+}
+.vertical-tital{
+      font-size: 1.5rem;
+}
+.vertical-Desc {
+    font-size: 12px;
+    color: gray;
+    width: 150px;
+}
+footer{
+    background-color: #05005e;
+    height: 139px;
+}
+.footer{
+display: flex;
+justify-content: space-evenly;
+padding: 19px 6px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer >div{
+    width: 220px;
+}
+footer .rightss{
+    text-align: center;
+    color: grey;
+}
